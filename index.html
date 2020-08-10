@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub榜单</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1396688_z3w0l1n7w8n.css">
+    <script src="static/js/main.js"></script>
+    <script src="https://cdn.bootcss.com/vConsole/3.3.0/vconsole.min.js"></script>
+</head>
+
+<body>
+    <main class="contains">
+        <section class="details-tab active project-tab">
+            <div class="project-content"></div>
+            <div class="loading"><i class="iconfont icon-Loading"></i></div>
+        </section>
+        <section class="details-tab followers-tab">
+            <div class="followers-content"></div>
+            <div class="loading"><i class="iconfont icon-Loading"></i></div>
+        </section>
+        <section class="details-tab search-tab">
+            <div class="search">
+                <div class="search-content">
+                    <input type="text" placeholder="输入关键词搜索"><span class="search-btn">搜索</span>
+                </div>
+            </div>
+            <div class="result">
+                <div class="result-content"></div>
+                <div class="loading"><i class="iconfont icon-Loading"></i></div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <ul>
+            <li class="menu-tab project active">
+                <a href="javaScript:void(0);">
+                    <div class="menu-contains">
+                        <div><i class="iconfont icon-project"></i></div>
+                        <div><span>项目排行</span></div>
+                    </div>
+                </a>
+            </li>
+            <li class="menu-tab followers">
+                <a href="javaScript:void(0);">
+                    <div class="menu-contains">
+                        <div><i class="iconfont icon-follower"></i></div>
+                        <div><span>粉丝排行</span></div>
+                    </div>
+                </a>
+            </li>
+            <li class="menu-tab search">
+                <a href="javaScript:void(0);">
+                    <div class="menu-contains">
+                        <div><i class="iconfont icon-search"></i></div>
+                        <div><span>搜索</span></div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script>
+        var vConsole = new VConsole();
+          console.log('Hello world');
+    </script>
+</body>
+
+</html>
